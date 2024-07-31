@@ -1,0 +1,167 @@
+body
+{
+    background-color: aliceblue;
+}
+a
+{
+    font-weight: 600;
+    font-size:larger;
+}
+table
+{
+    align-items: center;
+}
+marquee
+{
+    font-weight:400;
+}
+
+font
+{
+    font-weight:bold;
+    font-size: x-large;
+}
+.title
+{
+    height:50px;
+    background-color:blanchedalmond;
+}
+.context
+{
+    background-color:bisque;
+}
+.unit
+{
+    font-size:x-large;
+    border:2px solid rgb(247, 156, 19);
+    border-radius:50px;
+}
+.wrap
+{
+    display:flex;
+    justify-content:flex-end;
+}
+.lsn
+{
+    font-size:x-large;
+}
+.icon
+{
+    height:200;
+}
+table
+{
+    width:100%;
+}
+p.mnu
+{
+    font-weight:700;
+    font-size:xx-large;
+    border-bottom:2px solid grey;
+}
+.dis_table
+{
+    padding:45px;
+}
+table.mnu
+{
+    padding: 05px;
+}
+#welcome
+{
+    font-weight:bold;
+    font-size: xx-large;
+}
+#menu
+{
+    font-weight:bold;
+    font-size: xx-large;
+}
+
+
+@media screen and (max-width: 600px)
+{
+    h1
+    {
+        font-size:large;
+    }
+    table
+    {
+        width:100%;
+    }
+    font
+    {
+        font-weight:bold;
+        font-size:xx-small;
+    }
+    a
+    {
+        font-weight: 400;
+        font-size:small;
+    }
+    h3
+    {
+        font-size:small;
+        font-weight:700;
+    }
+    #welcome
+    {
+        font-weight:bold;
+        font-size:large;
+    }
+    #menu
+    {
+        font-weight:bold;
+        font-size:xx-large;
+    }
+    #about
+    {
+        font-size:x-small;
+        font-weight: 300;
+    }
+    .icon
+    {
+        height: 60px;
+    }
+    table.dis_table
+    {
+        padding: 20px;
+    }
+    .dis_table
+    {
+        padding: 14px;
+    }
+    .dis_p
+    {
+        font-size: xx-small;
+    }
+    p.mnu
+    {
+        line-height:70px;
+        font-weight:800;
+        font-size:x-large;
+    }
+    table.mnu
+    {
+        padding: 05px;
+    }
+}
+
+@media screen and (max-width: 100px)
+{
+    p.mnu
+    {
+        line-height:70px;
+        font-weight:500;
+        font-size:7px;
+    }
+    table.mnu
+    {
+        padding: 05px;
+    }
+    #menu
+    {
+        font-weight:bold;
+        font-size:large;
+    }
+}
