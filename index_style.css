@@ -1,0 +1,33 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+font
+{
+    font-size: x-large;
+    color: white;
+}
+
+#home_table
+{
+    padding:50px;
+    text-align: center;
+}
+
+.sqr
+{
+    padding: 100px;
+}
+
+.b_shadow
+{
+    box-shadow: 1px 1px 20px yellow;
+}
+
+.wrap
+{
+    display: flex;
+    justify-content: flex-end;
+}

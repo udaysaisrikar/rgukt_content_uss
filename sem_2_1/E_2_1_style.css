@@ -1,0 +1,21 @@
+body
+{
+    background-color: black;
+}
+
+font
+{
+    font-size: x-large;
+    color: white;
+}
+
+#index_table
+{
+    padding:50px;
+    text-align: center;
+}
+
+.b_shadow
+{
+    box-shadow: 1px 1px 20px yellow;
+}
