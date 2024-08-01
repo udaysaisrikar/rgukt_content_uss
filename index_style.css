@@ -16,6 +16,13 @@ font
     text-align: center;
 }
 
+#home_page
+{
+    background-image: url(assets/bg_2_1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .sqr
 {
     padding: 100px;
@@ -30,4 +37,29 @@ font
 {
     display: flex;
     justify-content: flex-end;
+}
+
+div.text
+{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+p.text
+{
+    text-indent: 120px;
+    font-size: x-large;
+    color: gray;
+}
+
+ul
+{
+    text-indent: 120px;
+    font-size: x-large;
+    color: gray;
+}
+
+@media screen and (max-width: 600px)
+{
+
 }
