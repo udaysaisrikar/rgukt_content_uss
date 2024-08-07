@@ -28,11 +28,14 @@ td
     font-size: x-large;
 }
 
-.wrap
+a
 {
-    padding: 20px;
-    display: flex;
-    justify-content: flex-end;
+    color: wheat;
+}
+
+a:active
+{
+    color: red;
 }
 
 a:visited
@@ -40,6 +43,12 @@ a:visited
     color: wheat;
 }
 
+.wrap
+{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
 
 @media screen and (max-width: 600px)
 {

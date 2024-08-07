@@ -7,6 +7,22 @@ body
     color: wheat;
 }
 
+a
+{
+    color: wheat;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: red;
+}
+
+a:visited
+{
+    color: wheat;
+}
+
 .subject
 {
     background-color: black;
