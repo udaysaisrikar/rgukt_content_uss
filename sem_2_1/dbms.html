@@ -5,11 +5,25 @@
     <title>
         uss.com/dbms/
     </title>
+    <script type="text/javascript">
+        function show_alert()
+        {
+            window.alert("Check your Downloads...\uD83D\uDE09");
+        }
+        function large_alert()
+        {
+            window.alert("It's a large file...Wait & check your downloads\uD83D\uDE09!!!");
+        }
+        function goBack() 
+        {
+            window.history.go(-1);
+        }
+    </script>
 </head>
 <body>
     <center>
     <h1>Database Management Systems</h1>
-    <div class="unit" onclick="window.location.href='error.html'">
+    <div class="unit" onclick="window.location.href='dbms/dbms_u1.html'">
         <p align="center">1.Introduction to Database Management & ER Models</p>
     </div>
     <br>
@@ -33,7 +47,22 @@
         <p align="center">6.Transaction Concepts</p>
     </div>
     <br>
-    <button type="button" onclick="window.location.href='index_2_1_home.html'" class="danger" >Wanna  go Back?</button>
+
+    <a href="dbms/Henry_F_Korth_6thEdition.pdf" target="_blank">
+    <div class="unit" onclick="show_alert()"><p align="center">Henry F. Korth 6th Edition</p></div>
+    </a>
+
+    <br>
+    <a href="dbms/database-management-systems-raghu-ramakrishnan.pdf" target="_blank">
+        <div class="unit" onclick="show_alert()"><p align="center">Raghu Ramakrishnan's Database Management Systems</p></div>
+    </a>
+
+    <br>
+    <a href="dbms/navathe.pdf" target="_blank">
+        <div class="unit" onclick="show_alert()"><p align="center">Navathe's Database Systems</p></div>
+    </a>
+    <br>
+    <button type="button" onclick="goBack()" class="danger" >Wanna  go Back?</button>
     </center>
 </body>
 </html>

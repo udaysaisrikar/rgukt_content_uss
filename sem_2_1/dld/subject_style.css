@@ -1,0 +1,47 @@
+body
+{
+    background-color: gray;
+    font-size: x-large;
+    font-family: 'Courier New';
+    font-weight: 600;
+    color: wheat;
+}
+
+h1
+{
+    color: black;
+    text-decoration: underline;
+}
+
+.unit
+{
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 90%;
+    align-content: center;
+    font-size: x-large;
+}
+
+.danger
+{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New';
+}
+
+@media screen and (max-width: 1000px)
+{
+    h1
+    {
+        font-size: x-large;
+    }
+    .unit
+    {
+        font-size: x-large;
+    }
+}
