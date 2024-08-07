@@ -1,21 +1,39 @@
 body
 {
-    background-color: black;
-}
-
-font
-{
+    background-color: gray;
     font-size: x-large;
-    color: white;
+    font-family: 'Courier New';
+    font-weight: 600;
+    color: wheat;
 }
 
-#index_table
+.subject
 {
-    padding:50px;
-    text-align: center;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 50px;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+}
+
+.wrap
+{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap:75px;
 }
 
 .b_shadow
 {
     box-shadow: 1px 1px 20px dodgerblue;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .wrap
+    {
+        display: inline;
+    }
 }
