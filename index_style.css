@@ -1,65 +1,52 @@
 body
 {
-    background-color: black;
-    color: white;
-}
-
-font
-{
+    background-color: whitesmoke;
     font-size: x-large;
-    color: white;
+    font-family: 'Courier New';
+    font-weight: 600;
 }
 
-#home_table
+div
 {
-    padding:50px;
-    text-align: center;
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 90%;
+    background-color: bisque;
 }
 
-#home_page
+h1
 {
-    background-image: url(assets/bg_2_1.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
+    font-family: 'Courier New';
+    color: hotpink;
+    font-weight: 800;
 }
 
-.sqr
+td
 {
-    padding: 100px;
-}
-
-.b_shadow
-{
-    box-shadow: 1px 1px 20px yellow;
+    padding-left: 40px;
+    font-size: x-large;
 }
 
 .wrap
 {
+    padding: 20px;
     display: flex;
     justify-content: flex-end;
 }
 
-div.text
-{
-    padding-left: 50px;
-    padding-top: 50px;
-}
 
-p.text
-{
-    text-indent: 120px;
-    font-size: x-large;
-    color: gray;
-}
-
-ul
-{
-    text-indent: 120px;
-    font-size: x-large;
-    color: gray;
-}
 
 @media screen and (max-width: 600px)
 {
-
+    .wrap
+    {
+        padding: 0px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    td
+    {
+        padding-left: 0px;
+        font-size: xx-small;
+    }
 }
