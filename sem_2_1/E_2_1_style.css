@@ -25,6 +25,11 @@ body
     gap:75px;
 }
 
+.wrap_new
+{
+    display: none;
+}
+
 .b_shadow
 {
     box-shadow: 1px 1px 20px dodgerblue;
@@ -34,6 +39,13 @@ body
 {
     .wrap
     {
-        display: inline;
+        display: none;
+    }
+    .wrap_new
+    {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        gap:75px;
     }
 }

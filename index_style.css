@@ -35,6 +35,10 @@ td
     justify-content: flex-end;
 }
 
+a:visited
+{
+    color: wheat;
+}
 
 
 @media screen and (max-width: 600px)
