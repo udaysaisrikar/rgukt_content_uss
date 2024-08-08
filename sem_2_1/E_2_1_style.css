@@ -57,10 +57,10 @@ a:visited
     font-family: 'Courier New';
 }
 
-.b_shadow
+/*.b_shadow
 {
     box-shadow: 1px 1px 20px dodgerblue;
-}
+}*/
 
 /*Loading animation*/
 #content
