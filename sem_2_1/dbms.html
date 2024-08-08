@@ -5,29 +5,24 @@
     <title>
         uss.com/dbms/
     </title>
-    <script type="text/javascript">
-        function show_alert()
-        {
-            window.alert("Check your Downloads...\uD83D\uDE09");
-        }
-        function large_alert()
-        {
-            window.alert("It's a large file...Wait & check your downloads\uD83D\uDE09!!!");
-        }
-        function goBack() 
-        {
-            window.history.go(-1);
-        }
-    </script>
+    <script src="E_2_1_script.js"></script>
 </head>
 <body>
-    <center>
+    <div id="testId" class="test">
+        <div align="center" id="loading" class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div align="center" id="content">
     <h1>Database Management Systems</h1>
     <div class="unit" onclick="window.location.href='dbms/dbms_u1.html'">
         <p align="center">1.Introduction to Database Management & ER Models</p>
     </div>
     <br>
-    <div class="unit" onclick="window.location.href='error.html'">
+    <div class="unit" onclick="window.location.href='dbms/dbms_u2.html'">
         <p align="center">2. Basics of Relational Models</p>
     </div>
     <br>
@@ -63,6 +58,6 @@
     </a>
     <br>
     <button type="button" onclick="goBack()" class="danger" >Wanna  go Back?</button>
-    </center>
+    </div>
 </body>
 </html>
