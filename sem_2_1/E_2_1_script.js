@@ -1,9 +1,23 @@
-window.addEventListener('load', function()
+/*window.addEventListener('load', function()
 {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('testId').style.display = 'none';
     document.getElementById('content').style.display = 'block';
+});*/
+
+document.addEventListener("DOMContentLoaded", function() {
+    const loader = document.getElementById('loading');
+    const content = document.getElementById('content');
+    const testId = document.getElementById('testId');
+
+    // Hide the loader and show the content after the page is fully loaded
+    window.addEventListener('load', function() {
+        loader.style.display = 'none';
+        testId.style.display='none';
+        content.style.display = 'block';
+    });
 });
+
 
 function show_alert()
 {
